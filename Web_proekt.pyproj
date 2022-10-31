@@ -36,6 +36,9 @@
     <Compile Include="news\apps.py" />
     <Compile Include="news\migrations\__init__.py" />
     <Compile Include="news\models.py" />
+    <Compile Include="news\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="news\tests.py" />
     <Compile Include="news\views.py" />
     <Compile Include="news\__init__.py" />

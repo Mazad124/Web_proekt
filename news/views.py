@@ -5,3 +5,6 @@ def index(request):
 	print(request)
 	return HttpResponse('Hello world')
 
+def test(request):
+	print(request)
+	return HttpResponse('<h1>Test page</h1>')
