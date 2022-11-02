@@ -12,7 +12,7 @@
     <ProjectGuid>4a381e11-9032-4fcf-a6f3-0fa427332275</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>manage.py</StartupFile>
+    <StartupFile>Web_proekt\urls.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,6 +34,7 @@
     <Compile Include="manage.py" />
     <Compile Include="news\admin.py" />
     <Compile Include="news\apps.py" />
+    <Compile Include="news\migrations\0001_initial.py" />
     <Compile Include="news\migrations\__init__.py" />
     <Compile Include="news\models.py" />
     <Compile Include="news\urls.py">
@@ -49,11 +50,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="db.sqlite3" />
+    <Content Include="news\templates\news\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="news\" />
     <Folder Include="news\migrations\" />
+    <Folder Include="news\templates\" />
+    <Folder Include="news\templates\news\" />
     <Folder Include="Web_proekt\" />
   </ItemGroup>
   <ItemGroup>
