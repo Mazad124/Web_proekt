@@ -50,10 +50,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="db.sqlite3" />
+    <Content Include="media\photos\2022\11\03\Без_названия.jpg" />
     <Content Include="news\templates\news\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="media\" />
+    <Folder Include="media\photos\" />
+    <Folder Include="media\photos\2022\" />
+    <Folder Include="media\photos\2022\11\" />
+    <Folder Include="media\photos\2022\11\03\" />
     <Folder Include="news\" />
     <Folder Include="news\migrations\" />
     <Folder Include="news\templates\" />
