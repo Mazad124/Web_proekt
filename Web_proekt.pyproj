@@ -35,6 +35,7 @@
     <Compile Include="news\admin.py" />
     <Compile Include="news\apps.py" />
     <Compile Include="news\migrations\0001_initial.py" />
+    <Compile Include="news\migrations\0002_alter_news_options_alter_news_content_and_more.py" />
     <Compile Include="news\migrations\__init__.py" />
     <Compile Include="news\models.py" />
     <Compile Include="news\urls.py">
