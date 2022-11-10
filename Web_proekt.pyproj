@@ -38,6 +38,12 @@
     <Compile Include="news\migrations\0002_alter_news_options_alter_news_content_and_more.py" />
     <Compile Include="news\migrations\__init__.py" />
     <Compile Include="news\models.py" />
+    <Compile Include="news\templatetags\news_tags.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="news\templatetags\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="news\urls.py">
       <SubType>Code</SubType>
     </Compile>
@@ -53,7 +59,11 @@
     <Content Include="db.sqlite3" />
     <Content Include="media\photos\2022\11\03\Без_названия.jpg" />
     <Content Include="news\templates\news\index.html" />
+    <Content Include="news\templates\news\category.html" />
     <Content Include="requirements.txt" />
+    <Content Include="templates\base.html" />
+    <Content Include="templates\inc\_sidebar.html" />
+    <Content Include="templates\inc\_nav.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="media\" />
@@ -61,10 +71,13 @@
     <Folder Include="media\photos\2022\" />
     <Folder Include="media\photos\2022\11\" />
     <Folder Include="media\photos\2022\11\03\" />
+    <Folder Include="news\templatetags\" />
+    <Folder Include="templates\" />
     <Folder Include="news\" />
     <Folder Include="news\migrations\" />
     <Folder Include="news\templates\" />
     <Folder Include="news\templates\news\" />
+    <Folder Include="templates\inc\" />
     <Folder Include="Web_proekt\" />
   </ItemGroup>
   <ItemGroup>
