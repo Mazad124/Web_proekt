@@ -1,8 +1,14 @@
 {% load news_tags %}
 
 <div class="list-group">
-    {% get_categories as categories %}
+    {% get_list_categories as categories %}
     {% for item in categories %}
     <a href="{% url 'category' item.pk %}" class="list-group-item list-group-item-action">{{ item.title }}</a>
     {% endfor %}
 </div>
+
+<br>
+
+{% comment %}
+Тут мы можем посмотреть, что сайдбар работает и с тегами сверху, так и с кастомными здесь{% show_categories %}
+{% endcomment %}

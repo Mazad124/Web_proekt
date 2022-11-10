@@ -36,6 +36,7 @@
     <Compile Include="news\apps.py" />
     <Compile Include="news\migrations\0001_initial.py" />
     <Compile Include="news\migrations\0002_alter_news_options_alter_news_content_and_more.py" />
+    <Compile Include="news\migrations\0003_auto_20221103_2144.py" />
     <Compile Include="news\migrations\__init__.py" />
     <Compile Include="news\models.py" />
     <Compile Include="news\templatetags\news_tags.py">
@@ -60,6 +61,7 @@
     <Content Include="media\photos\2022\11\03\Без_названия.jpg" />
     <Content Include="news\templates\news\index.html" />
     <Content Include="news\templates\news\category.html" />
+    <Content Include="news\templates\news\list_categories.html" />
     <Content Include="requirements.txt" />
     <Content Include="templates\base.html" />
     <Content Include="templates\inc\_sidebar.html" />
