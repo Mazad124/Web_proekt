@@ -62,6 +62,7 @@
     <Content Include="news\templates\news\index.html" />
     <Content Include="news\templates\news\category.html" />
     <Content Include="news\templates\news\list_categories.html" />
+    <Content Include="news\templates\news\view_news.html" />
     <Content Include="requirements.txt" />
     <Content Include="templates\base.html" />
     <Content Include="templates\inc\_sidebar.html" />
