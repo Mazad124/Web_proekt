@@ -67,6 +67,8 @@
     <Content Include="news\templates\news\list_categories.html" />
     <Content Include="news\templates\news\view_news.html" />
     <Content Include="news\templates\news\add_news.html" />
+    <Content Include="news\templates\news\news_list.html" />
+    <Content Include="news\templates\news\home_news_list.html" />
     <Content Include="requirements.txt" />
     <Content Include="static\admin\css\autocomplete.css" />
     <Content Include="static\admin\css\base.css" />
