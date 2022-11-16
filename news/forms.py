@@ -2,6 +2,7 @@
 from .models import News
 import re
 from django.core.exceptions import ValidationError
+from django.urls import reverse
 
 class NewsForm(forms.ModelForm):
     class Meta:
